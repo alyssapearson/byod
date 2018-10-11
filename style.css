@@ -1,0 +1,468 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  color: #511D2C;
+  opacity: 1;
+}
+
+#intro-text h2 {
+  color: white;
+  text-align: left;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
+header p, .whats-included p {
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+#hero {
+  max-width: 50%;
+  float: left;
+}
+
+#logo {
+  max-width: 90%;
+  height: auto;
+}
+
+#intro-block {
+  max-width: 50%;
+  float: right;
+  height: auto;
+}
+
+#intro-text {
+  max-width: 70%;
+  background-color: #CE8376;
+  padding: 50px 70px;
+  color: white;
+}
+
+#pink {
+  clear: both;
+  background-color: rgba(238,191,174,.3);
+  position: relative;
+  top: -100px;
+  padding-top: 150px;
+  z-index: -1;
+}
+
+.about p{
+  width: 50%;
+  margin: auto;
+  padding: 60px;
+  column-count: 2;
+  column-fill: auto;
+  column-gap: 40px;
+  text-align: justify;
+}
+
+.line-decoration {
+  height: 2px;
+  background-color: #511D2C;
+}
+
+.paint-swash {
+  margin: auto;
+  display: block;
+  position: relative;
+  bottom: -60px;
+  width: 200px;
+  clear: both;
+}
+
+.modules {
+  padding-bottom: 100px;
+}
+
+.main-module {
+  clear: both;
+}
+
+.modules-intro {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.module-background {
+  width: 50%;
+  height: 80px;
+  margin-top: 50px;
+  background-color: #f3c4b3;
+}
+
+.module-background img{
+  width: 70%;
+  float: right;
+  margin-top: -35px;
+  clear: both;
+}
+
+.module-breakdown {
+  width: 70%;
+  margin: auto;
+  clear: both;
+}
+
+.module-breakdown-bonus {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+.goals {
+  float: left;
+  width: 45%;
+}
+
+.lessons {
+  float: right;
+  width: 45%;
+  padding-bottom: 100px;
+}
+
+.lessons p {
+  text-align: left;
+  width: 100%;
+}
+
+.gray {
+  clear: both;
+  background-color: #F2F2F2;
+}
+
+.gray-content {
+  width: 70%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.whats-included {
+  background-color: #511D2C;
+  padding: 40px 60px;
+  margin-bottom: 100px;
+  width: 50%;
+  color: white;
+  float: left;
+}
+
+#videos img, #worksheets img, #community img {
+  margin-top: -500px;
+  float: right;
+  width: 45%;
+}
+
+#videos, #worksheets, #community {
+  clear: both;
+}
+
+.gray-title {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -40px;
+}
+
+.enrollment {
+  width: 70%;
+  margin: auto;
+  padding: 100px;
+}
+
+.enrollment img {
+  max-width: 55%;
+  float: left;
+}
+
+.enroll-text h2 {
+  text-align: left;
+}
+
+.button {
+  border: none;
+  background-color: inherit;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: #511D2C;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+}
+
+.button:hover {
+  color: #f3c4b3;
+}
+
+.mariah {
+  background-color: rgba(238,191,174,.3);
+  padding: 100px 0;
+}
+
+.mariah img{
+  width: 40%;
+  margin: auto;
+  display: block;
+  padding: 40px;
+}
+
+.mariah h2 {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+#byod2 {
+  max-width: 40%;
+  margin-left: 100px;
+  margin-top: -100px;
+  float: left;
+}
+
+.numbers {
+  width: 50px;
+  float: left;
+  margin-left: -25px;
+  margin-right: 80px;
+}
+
+#perfect-course {
+  padding: 100px;
+  z-index: 2;
+  position: relative;
+}
+
+#perfect-course h4 {
+  margin: 40px;
+  overflow: auto;
+}
+
+#takeaways h2, #takeaways-content {
+  width: 40%;
+  margin: auto;
+  padding: 50px 70px;
+}
+
+li {
+  padding-bottom: 20px;
+  color: #f3c4b3;
+  margin-left: -20px;
+}
+
+li span {
+  color: black;
+}
+
+
+
+/* -------- mobile css -------- */
+
+@media only screen and (max-width: 768px) {
+    #intro-block{
+      float: none;
+      max-width: 100%
+    }
+
+    #logo {
+      position: absolute;
+      top: 20px;
+      right: 10px;
+      width: 70%;
+    }
+
+    #intro-text {
+      float: left;
+      max-width: 100%;
+    }
+
+    h2{
+      font-size: 18px;
+    }
+
+    header p {
+      font-size: 13px;
+    }
+
+    .about p {
+      column-count: 1;
+      padding: 10px;
+      width: 70%;
+      text-align: left;
+    }
+
+    .paint-swash {
+      width: 150px;
+      bottom: -45px;
+    }
+
+    .module-background {
+      width: 90%;
+      height: 50px;
+    }
+
+    .module-background img {
+      margin-top: -20px;
+      width: 80%;
+    }
+
+    .modules p, .modules h2 {
+      width: 100%;
+      margin: auto;
+    }
+
+    .module-breakdown {
+      width: 100%;
+    }
+
+    .module-breakdown-bonus {
+      width: 70%;
+    }
+
+    .modules {
+      width: 100%
+    }
+
+    .goals {
+      float: none;
+      width: 70%;
+      margin: auto;
+    }
+
+    .lessons {
+      float: none;
+      width: 70%;
+      margin: auto;
+      padding-bottom: 30px;
+    }
+
+    .modules-intro {
+      margin: auto;
+      width: 70%;
+    }
+
+    h3 {
+      font-size: 17px;
+    }
+
+    h4 {
+      font-size: 16px;
+      line-height: 1.4em;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 1.4em;
+    }
+
+    .gray-content {
+      width: 90%;
+      margin: auto;
+      padding-top: 0px;
+      padding-bottom: 50px;
+    }
+
+    .whats-included {
+      padding: 30px;
+      width: 80%;
+      margin: 30px auto;
+    }
+
+    #videos img, #worksheets img, #community img {
+      width: 100%;
+      margin-top: -100px;
+    }
+
+    .gray-title {
+      max-width: 200px;
+      top: -20px;
+    }
+
+    .enrollment {
+      width: 70%;
+      margin: auto;
+      padding: 50px 0;
+    }
+
+    .enrollment img {
+      max-width: 100%;
+      float: none;
+    }
+
+    .enroll-text, .enroll-text h2 {
+      text-align: center;
+    }
+
+    .mariah {
+      padding: 40px 0;
+    }
+
+    .mariah img{
+      width: 70%;
+    }
+
+    .mariah h2 {
+      width: 70%;
+      margin: auto;
+      padding-bottom: 20px;
+    }
+
+    #byod2 {
+      max-width: 70%;
+      margin-left: 60px;
+      margin-top: -60px;
+      margin-bottom: 20px;
+    }
+
+    .numbers {
+      width: 30px;
+      margin-left: 0;
+      margin-right: 20px;
+    }
+
+    #perfect-course {
+      padding: 10px;
+      width: 80%;
+      margin: auto;
+    }
+
+    #perfect-course h4 {
+      margin: 40px;
+      overflow: auto;
+    }
+
+    #takeaways h2, #takeaways-content {
+      width: 70%;
+      padding: 50px 70px;
+    }
+
+}
